@@ -1,19 +1,50 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
 }
 
+
+body {
+	background-color: black;
+	max-width: 900px;
+	margin: 0 auto;
+}
 
 h1 {
-  color: SeaGreen;
+  font-weight: normal;
+  font-size: 50px;
+  
+
 }
 
-
-p, 
-li {
-  font-size: 18px;
+h2 {
+	font-weight: 300;
+	font-size: 42px;
 }
 
+h1, h2 {
+	color: white;
+	text-align: center;
+}
 
+p {
+	color: gray;
+	font-size: 21px;
+	text-align: center;
+}
 a {
-  text-decoration: none;
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+.link, .video, .image {
+	text-align: center;
+}
+
+.copyright {
+	text-align: right;
+	color: Gray;
+}
+
+.app {
+	margin-top: 30px;
 }
